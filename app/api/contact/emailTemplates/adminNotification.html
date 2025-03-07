@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      background: linear-gradient(to right, #570F8B, #4895EF);
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    .footer {
+      background-color: #f3f3f3;
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #888888;
+    }
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .button {
+      background: #570F8B;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>New Contact Form Submission</h1>
+    </div>
+    <div class="content">
+      <p><strong>Name:</strong> {{NAME}}</p>
+      <p><strong>Email:</strong> {{EMAIL}}</p>
+      <p><strong>Phone:</strong> {{PHONE}}</p>
+      <p><strong>Message:</strong></p>
+      <p>{{MESSAGE}}</p>
+      <p>Review the submission and respond promptly. Visit the <a href="https://eliogerges.com">website</a> for more details.</p>
+    </div>
+    <div class="footer">
+      <p>
+        <a href="https://eliogerges.com/privacy-policy">Privacy Policy</a> | 
+        <a href="https://eliogerges.com/terms-and-conditions">Terms and Conditions</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
